@@ -8,6 +8,10 @@ board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 puts "Where would you like to go?"
 input= gets.strip
+<<<<<<< HEAD
 index =input_to_index(input)
+=======
+input_to_index(input)
+>>>>>>> 58029fee7a0e88c7dac6a8948f7ef56c59fdced8
 move(board, index ,value="X")
 display_board(board)
